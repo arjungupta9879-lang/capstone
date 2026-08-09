@@ -1,6 +1,9 @@
 html {
     font-family: sans-serif;
-    background-color: #b9b9b9;
+    color: #525252;
+}
+body {
+    margin: 0;
 }
 nav {
     margin: 0;
@@ -26,7 +29,6 @@ nav h1 span {
     font-weight: normal;
 }
 .link {
-    color: #808080;
     font-size: 16px;
     display: inline-flex;
     justify-content: flex-end;
@@ -35,6 +37,38 @@ nav h1 span {
 }
 .link a {
     padding: 0px 8px;
-    color: #636363;
+    color: #525252;
     text-decoration: none;
+}
+.start{
+    position: relative;
+    box-sizing: border-box;
+    top: 64px;
+    display: flex;
+    background-color: #b9b9b9;
+    width: 100%;
+    padding: 32px 24px;
+}
+.start img {
+    width: 60%;
+}
+.start .text {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 40px;
+    justify-content: center;
+}
+.start .text h1 {
+    font-size: 60px;
+    font-weight: 750;
+}
+.start .text h4 {
+    font-size: 32px;
+}
+.start .text a {
+    text-align: center;
+    background-color:#525252;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 8px 0px;
 }
