@@ -72,3 +72,80 @@ nav h1 span {
     font-size: 32px;
     padding: 8px 0px;
 }
+.practice {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    top: 64px;
+    border: solid 1px #b9b9b9;
+}
+.practice .img {
+    width: 60%;
+    padding: 32px 24px;
+    border-right: solid 1px #b9b9b9;
+}
+.img img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.img h1{
+    font-size: 60px;
+    font-weight: 750; 
+}
+.img p {
+    font-size: 32px;
+}
+.img h4 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.practice .info {
+    display: inline-flex;
+    flex-direction: column;
+    width: 40%;
+}
+.info {
+    padding-top: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #b9b9b9;
+}
+.info .sub {
+    display: flex;
+    padding: 16px;
+    background-color: #ffffff;
+}
+#campus {
+    background-color: #b9b9b9;
+}
+.sub img {
+    width: 35%;
+    margin: 0;
+    padding-left: 16px;
+}
+.sub .text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 65%;
+    padding: 25px;
+}
+.sub .text h4 {
+    font-size: 36px;
+    margin: 0;
+    padding: 4px 0;
+}
+.sub .text p {
+    font-size: 25px;
+    margin: 0;
+    padding: 4px;
+}
+.sub .text a {
+    font-size: 25px;
+    color: #40a2db;
+    margin: 0;
+    padding: 4px 0;
+}
