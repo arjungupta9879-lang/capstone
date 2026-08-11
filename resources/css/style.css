@@ -5,6 +5,9 @@ html {
 body {
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
 nav {
     margin: 0;
     width: 100%;
@@ -111,6 +114,8 @@ nav h1 span {
     flex-direction: column;
     justify-content: center;
     background-color: #b9b9b9;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #000000;
 }
 .info .sub {
     display: flex;
@@ -148,4 +153,45 @@ nav h1 span {
     color: #40a2db;
     margin: 0;
     padding: 4px 0;
+}
+.learn {
+    position: relative;
+    top: 64px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #b9b9b9;
+}
+.learn h1 {
+    width: 100%;
+    text-align: center;
+    margin: 32px;
+    font-size: 60px;
+    font-weight: 750;
+}
+.learn .sec {
+    background-color: #ffffff;
+    width: 25%;
+    margin: 32px;
+}
+.sec img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 8px;
+}
+.sec h4 {
+    font-size: 30px;
+    margin: 10px;
+    padding: 16px 0 4px 16px;
+}
+.sec span{
+    padding: 4px 0 4px 16px;
+    font-size: 20px;
+    margin: 10px;
+}
+.sec p{
+    padding: 4px 0 24px 16px;
+    font-size: 25px;
+    margin: 10px;
 }
