@@ -195,3 +195,70 @@ nav h1 span {
     font-size: 25px;
     margin: 10px;
 }
+.exhibit {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 64px;
+}
+.exhibit h1 {
+    width: 100%;
+    text-align: center;
+    padding: 32px 0 8px 0;
+}
+.exhibit .vid {
+    width: 60%;
+    padding: 24px ;
+    display: inline-flex;
+    flex-direction: column;
+}
+.exhibit .min {
+    display: inline-flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 0;
+    margin: 0;
+    align-items: flex-start;
+    padding-top: 24px;
+}
+.min div {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.min img {
+    display: inline;
+    width: 35%;
+    padding: 24px;
+    margin: 0;
+}
+.vid, .min {
+  vertical-align: top;
+}
+#fisma {
+    background-color: #b9b9b9;
+}
+.min .string {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.string h4 {
+    font-size: 30px;
+    padding: 16px;
+    margin: 0;
+}
+.string p{
+    font-size: 20px;
+    padding: 0 0 0 16px;
+    margin: 0;
+}
+footer {
+    position: relative;
+    top: 64px;
+}
+footer span {
+    padding: 20px;
+}
