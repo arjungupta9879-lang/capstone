@@ -1,1 +1,1 @@
-a project to test understanding over css and html
+a project to test my understanding over css and html
